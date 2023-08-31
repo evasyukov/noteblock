@@ -1,7 +1,5 @@
-const mainEl = document.querySelector('.main')
-
-// 1) написать функцию creteNote
-// 2) добавить кнопку и обработчик на добавление краточки
+const notesEl = document.querySelector('.notes')
+const addBtn = document.querySelector('.note-add')
 
 function createNote(title, text) {
     const noteEl = document.createElement('div')
@@ -19,3 +17,8 @@ function createNote(title, text) {
 
     return noteEl
 }
+
+addBtn.addEventListener('click', (e) => {
+    const el = createNote("Заголовок", "Ваш текст")
+    notesEl.appendChild(el)
+})
