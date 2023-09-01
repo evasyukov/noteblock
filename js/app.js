@@ -17,6 +17,11 @@ function createNote(title, text) {
     `
 
     const deleteBtn = noteEl.querySelector('.note-delete')
+    // const editBtn = noteEl.querySelector('.note-edit')
+
+    // editBtn.addEventListener('click', (e) => {
+
+    // });
 
     deleteBtn.addEventListener('click', (e) => {
         noteEl.remove();

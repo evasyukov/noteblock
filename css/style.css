@@ -15,3 +15,34 @@
     
 }
 
+.note-header {
+
+}
+
+
+
+.notes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.note{
+
+}
+
+.note-action{
+
+}
+
+.note-add {
+
+}
+
+.note-edit {
+
+}
+
+.note-delete {
+
+}
