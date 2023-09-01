@@ -9,8 +9,8 @@ function createNote(title, text) {
     <div class="note-header">
         <p>${title}</p>
         <div class="note-action>
-            <button class="note-edit"><i class="fa-solid fa-pen-to-square"></i></button>
-            <button class="note-delete"><i class="fa-solid fa-trash"></i></button>
+            <button class="btn note-edit"><i class="fa-solid fa-pen-to-square"></i></button>
+            <button class="btn note-delete"><i class="fa-solid fa-trash"></i></button>
         </div>
     </div>
     <p id="note-text">${text}</p>
