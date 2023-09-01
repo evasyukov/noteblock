@@ -8,14 +8,14 @@ function createNote(title, text) {
     noteEl.innerHTML = `
     <div class="note-header">
         <p id="note-title">${title}</p>
-        <textarea id="note-title-input" class="hidden">${title}</textarea>
+        <textarea id="note-title-input" class="note-title hidden">${title}</textarea>
         <div>
             <button class="btn note-edit"><i class="fa-solid fa-pen-to-square"></i></button>
             <button class="btn note-delete"><i class="fa-solid fa-trash"></i></button>
         </div>
     </div>
     <p id="note-text">${text}</p>
-    <textarea id="note-textarea" class="hidden">${text}</textarea>
+    <textarea id="note-textarea" class="note-text hidden">${text}</textarea>
     `
 
     const deleteBtn = noteEl.querySelector('.note-delete')
