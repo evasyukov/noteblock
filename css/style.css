@@ -20,7 +20,10 @@ body{
 }
 
 .note-header {
-
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    align-items: center;
 }
 
 .notes {
@@ -43,8 +46,13 @@ body{
 
 }
 
-.note-add {
+.btn{
+    margin: 5px;
+}
 
+.note-add {
+    padding: 4px;
+    margin-left: 10px;
 }
 
 .note-edit {
