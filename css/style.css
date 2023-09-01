@@ -19,8 +19,6 @@
 
 }
 
-
-
 .notes {
     display: flex;
     flex-direction: row;
@@ -28,7 +26,12 @@
 }
 
 .note{
-
+    background-color: #487366;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 10px;
+    height: 300px;
+    width: 240px;
 }
 
 .note-action{
