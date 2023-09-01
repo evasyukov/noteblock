@@ -50,7 +50,6 @@ function createNote(title, text) {
 }
 
 
-
 addBtn.addEventListener('click', (e) => {
     const el = createNote("Заголовок", "Ваш текст")
     notesEl.appendChild(el)

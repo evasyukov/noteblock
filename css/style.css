@@ -61,7 +61,9 @@ body{
 
 textarea{
     outline: none;
-    resize: inherit;
+    resize: none;
     border: 1px solid #e10d0d;
     overflow: auto;
 }
+
+
