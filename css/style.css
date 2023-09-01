@@ -3,3 +3,15 @@
     padding: 0;
     block-size: border-box;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    
+}
+
