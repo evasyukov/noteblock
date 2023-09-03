@@ -16,7 +16,12 @@ body{
 .header {
     display: flex;
     align-items: center;
-    color: #062f1b;
+    margin-top: 20px;
+}
+
+.header h1{
+    color: #55d8b1;
+    text-shadow: 2px 2px 1px #08553e;
 }
 
 .note-header {
