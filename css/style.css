@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #d9725575;
+    background-color: #FCE3FF;
 }
 
 .container {
@@ -20,8 +20,9 @@ body{
 }
 
 .header h1{
-    color: #55d8b1;
-    text-shadow: 2px 2px 1px #08553e;
+    color: #CDE6B5;
+    text-shadow: 3px 3px 2px #5c7048;
+    font-size: 46px;
 }
 
 .note-header {
@@ -40,13 +41,13 @@ body{
 }
 
 .note{
-    background-color: #55d8b1;
+    background-color: #CDE6B5;
     padding: 16px;
     margin: 8px;
     border-radius: 20px;
     height: 300px;
     width: 240px;
-    box-shadow: 4px 3px 5px 2px #0a7052;
+    box-shadow: 4px 3px 5px 2px #5c7048;
 }
 
 .btn{
@@ -67,8 +68,12 @@ body{
 textarea{
     outline: none;
     resize: none;
-    border: 1px solid #e10d0d;
+    border: 1px solid #0a7052;
     overflow: auto;
 }
 
+.note-text{
+    height: 80%;
+    width: 100%;
+}
 
