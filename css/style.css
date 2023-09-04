@@ -1,3 +1,5 @@
+@import "/css/menu.css";
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,11 @@
 }
 
 body{
-    background-color: #FCE3FF;
+    /* background-color: #FCE3FF; */
+    background-image: url(/img/loon-image-original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 }
 
 .container {
@@ -20,8 +26,8 @@ body{
 }
 
 .header h1{
-    color: #CDE6B5;
-    text-shadow: 3px 3px 2px #5c7048;
+    color: #d2c4a6;
+    /* text-shadow: 3px 3px 2px #5c7048; */
     font-size: 46px;
 }
 
@@ -37,17 +43,20 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: #062f1b;
+    color: #d2c4a6;
 }
 
 .note{
-    background-color: #CDE6B5;
+    /* background-color: #CDE6B5; */
+    background-color: rgba(52, 25, 25, 0.3);
     padding: 16px;
     margin: 8px;
     border-radius: 20px;
     height: 300px;
     width: 240px;
-    box-shadow: 4px 3px 5px 2px #5c7048;
+    /* box-shadow: 4px 3px 5px 2px #5c7048; */
+    backdrop-filter: blur(1px);
+   
 }
 
 .btn{
