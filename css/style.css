@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    background-attachment: fixed;
 }
 
 .container {
@@ -27,7 +28,7 @@ body{
 
 .header h1{
     color: #d2c4a6;
-    /* text-shadow: 3px 3px 2px #5c7048; */
+
     font-size: 46px;
 }
 
@@ -47,14 +48,14 @@ body{
 }
 
 .note{
-    /* background-color: #CDE6B5; */
+
     background-color: rgba(3, 1, 1, 0.52);
     padding: 16px;
     margin: 8px;
     border-radius: 20px;
     height: 300px;
     width: 240px;
-    /* box-shadow: 4px 3px 5px 2px #5c7048; */
+
     backdrop-filter: blur(2px);
    
 }
