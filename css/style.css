@@ -1,16 +1,16 @@
 @import "/css/menu.css";
 
-*{
+* {
     margin: 0;
     padding: 0;
     block-size: border-box;
 }
 
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     background-image: url(/img/loon-image-original.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,13 +24,16 @@ body{
     margin: 0 auto;
     margin-left: 10%;
     margin-top: 20px;
-
 }
 
-.header h1{
+.container button {
+    background-color: rgba(3, 1, 1, 0.52);
+    backdrop-filter: blur(2px);
+    padding: 15px;
     color: #d2c4a6;
-    font-size: 46px;
-    
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
 }
 
 .note-header {
@@ -38,7 +41,7 @@ body{
     justify-content: space-between;
     margin-bottom: 8px;
     align-items: center;
-    
+
 }
 
 .notes {
@@ -48,7 +51,7 @@ body{
     color: #d2c4a6;
 }
 
-.note{
+.note {
     background-color: rgba(3, 1, 1, 0.52);
     padding: 16px;
     margin: 8px;
@@ -59,7 +62,15 @@ body{
     font-size: 24px;
 }
 
-.btn{
+.note button {
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    padding: 4px;
+}
+
+.btn {
     margin: 4px;
     padding: 4px;
     cursor: pointer;
@@ -74,7 +85,7 @@ body{
     display: none;
 }
 
-textarea{
+textarea {
     outline: none;
     resize: none;
     border: 1px solid #d2c4a6;
@@ -83,8 +94,7 @@ textarea{
     color: #d2c4a6;
 }
 
-.note-text{
+.note-text {
     height: 80%;
     width: 100%;
 }
-

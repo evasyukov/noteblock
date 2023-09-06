@@ -10,7 +10,7 @@ function createNote(title, text) {
         <p id="note-title">${title}</p>
         <textarea id="note-title-input" class="note-title hidden">${title}</textarea>
         <div>
-            <button class="btn note-edit"><i class="fa-solid fa-pen-to-square"></i></button>
+            <button class="btn note-edit"><i class="fa-solid fa-pen"></i></button>
             <button class="btn note-delete"><i class="fa-solid fa-trash"></i></button>
         </div>
     </div>
