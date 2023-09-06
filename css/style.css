@@ -6,18 +6,23 @@
     block-size: border-box;
 }
 
+html{
+    height: 100%;
+}
+
 body{
-    /* background-color: #FCE3FF; */
     background-image: url(/img/loon-image-original.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     background-attachment: fixed;
+    height: 100%;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    margin-left: 10%;
 }
 
 .header {
@@ -28,8 +33,8 @@ body{
 
 .header h1{
     color: #d2c4a6;
-
     font-size: 46px;
+    
 }
 
 .note-header {
@@ -48,16 +53,13 @@ body{
 }
 
 .note{
-
     background-color: rgba(3, 1, 1, 0.52);
     padding: 16px;
     margin: 8px;
     border-radius: 20px;
     height: 300px;
     width: 240px;
-
     backdrop-filter: blur(2px);
-   
 }
 
 .btn{

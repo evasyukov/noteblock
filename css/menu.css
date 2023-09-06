@@ -1,0 +1,9 @@
+.menu {
+    background-color: rgba(3, 1, 1, 0.52);
+    backdrop-filter: blur(2px);
+    position: sticky;
+    float: left;
+    top: 0;
+    min-height: 100%;
+    width: 20%;
+}
