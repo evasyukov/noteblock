@@ -23,12 +23,8 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     margin-left: 10%;
-}
-
-.header {
-    display: flex;
-    align-items: center;
     margin-top: 20px;
+
 }
 
 .header h1{
