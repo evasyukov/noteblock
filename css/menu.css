@@ -1,18 +1,59 @@
 .menu {
-    background-color: rgba(3, 1, 1, 0.52);
-    backdrop-filter: blur(2px);
-    position: sticky;
-    float: left;
-    top: 0;
-    min-height: 100%;
-    width: 20%;
+  background-color: rgba(3, 1, 1, 0.52);
+  backdrop-filter: blur(2px);
+  position: sticky;
+  float: left;
+  top: 0;
+  min-height: 100%;
+  width: 20%;
 }
 
-.title-menu{
-    padding: 16px;
-    margin: 8px;
-    border-radius: 20px;
-    color: #d2c4a6;
-    font-size: 42px;
-    text-align: center;
+.title-menu {
+  padding: 16px;
+  margin: 8px;
+  border-radius: 20px;
+  color: #d2c4a6;
+  font-size: 42px;
+  text-align: center;
+}
+
+.btn-menu {
+  background-color: #04aa6d00;
+  border: 1px solid #d2c4a6;
+  border-radius: 10px;
+  color: #d2c4a6;
+  padding: 16px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+.main-menu{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.backround-menu {
+  display: none;
+  position: absolute;
+  width: 70%;
+  box-shadow: 0px 10px 12px 10px #fbfbfb32;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.backround-menu a {
+  color: #d2c4a6;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.backround-menu a:hover {
+  background-color: #00000000;
+  backdrop-filter: blur(1px);
+}
+
+.main-menu:hover .backround-menu {
+  display: block;
 }
