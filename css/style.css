@@ -81,6 +81,11 @@ body {
     margin-left: 10px;
 }
 
+.note-add:hover {
+    background-color: rgba(0, 0, 0, 0.713);
+    backdrop-filter: blur(0px);
+}
+
 .hidden {
     display: none;
 }
