@@ -10,8 +10,20 @@ html {
     height: 100%;
 }
 
+.light {
+    --img-bg: url(/img/light-image.jpg);
+}
+
+.dark {
+    --img-bg: url(/img/dark-image.jpg);
+}
+
+.relax {
+    --img-bg: url(/img/relax-image.jpg);
+}
+
 body {
-    background-image: url(/img/loon-image-original.jpg);
+    background-image: var(--img-bg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
