@@ -1,6 +1,6 @@
 .menu {
   background-color: rgba(3, 1, 1, 0.52);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(8px);
   position: sticky;
   float: left;
   top: 0;

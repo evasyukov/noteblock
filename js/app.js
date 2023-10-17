@@ -22,14 +22,14 @@ function createNote(title, text) {
   const titleEl = noteEl.querySelector("#note-title");
   const textEl = noteEl.querySelector("#note-text");
   const titleInputEl = noteEl.querySelector("#note-title-input");
-  const textareatEl = noteEl.querySelector("#note-textarea");
+  const textAreatEl = noteEl.querySelector("#note-textarea");
 
   editBtn.addEventListener("click", (e) => {
     titleEl.classList.toggle("hidden");
     textEl.classList.toggle("hidden");
 
     titleInputEl.classList.toggle("hidden");
-    textareatEl.classList.toggle("hidden");
+    textAreatEl.classList.toggle("hidden");
   });
 
   deleteBtn.addEventListener("click", (e) => {
@@ -37,27 +37,44 @@ function createNote(title, text) {
   });
 
   titleInputEl.addEventListener("input", (e) => {
-    titleEl.innerText = e.target.value;
-  });
+    titleEl.innerText = e.target.value
+  })
 
-  textareatEl.addEventListener("input", (e) => {
-    textEl.innerText = e.target.value;
-  });
+  textAreatEl.addEventListener("input", (e) => {
+    textEl.innerText = e.target.value
+  })
 
-  return noteEl;
+  return noteEl
 }
 
 addBtn.addEventListener("click", (e) => {
-  const el = createNote("title", "your text");
-  notesEl.appendChild(el);
+  const el = createNote("title", "your text")
+  notesEl.appendChild(el)
 });
 
-const body = document.getElementById("page");
+const body = document.getElementById("page")
+const mainPage = document.getElementById("main-page")
+
 
 document.querySelector(".backround-menu").addEventListener("click", (e) => {
   if (e.target.nodeName === "A")
-    console.log("werff");
-    body.classList.remove("light", "dark", "relax");
-    body.classList.add(e.target.attributes["value"].value);
-  });
-  
+  body.classList.remove("light", "dark", "relax")
+  body.classList.add(e.target.attributes["value"].value)
+
+  saveEl()
+})
+
+function saveEl() {
+  const background = body.classList
+  localStorage.setItem('background', background)
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  body.classList.remove("light", "dark", "relax")
+  const savedBackground = localStorage.getItem('background')
+
+  if (savedBackground) {
+    body.classList.add(savedBackground)
+  }
+})
